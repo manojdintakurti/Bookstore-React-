@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+{
+  color:white;
+  border: 1px solid black;
+}
+.header{
+  /*width:1200px;*/
+}
+.header-logo{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.icons-tray{
+  padding: 20px;
+}
+.fas{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.pull-right{
+  float: right;
+}
+.search-box{
+
+}
+.header-options{
+  background-color: #3498db;
+}
+.search-box {
+  width: 500px;
+  height: 45px;
+  position: relative;
+  float: left;
+  margin-right: 230px;
+  padding-left:20px;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 480px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* NavigationBar.css */
+.navbar {
+  background-color: #3498db;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-bar {
+  width: 40%;
+}
+
+.ebooks-link {
+  /* Style your "Ebooks" link here */
+}
+
+.login-button {
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #f18712;
+  font-weight: bold;
+  color: white;
+  font-size:20px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  border: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.login-button:hover {
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+  background-color: #ff8f05;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #3498db;
+  color: white;
+}
+.ebooks-link{
+  color: white;
+  font-size: 20px;
+}
+.ebooks-link:hover{
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.hover-effect:hover .cart-count{
+  background-color: #808080;
+}
+.ctc-button{
+  position: absolute;
+  font-size: 40px;
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  z-index: 4;
+  top: 230px;
+  right: 900px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+
+}
+.ctc-button:hover{
+background-color: chocolate;
+}
+.fa-house, .fa-regular, .fa-cart-shopping{
+  font-size:30px;
+}
+.cart-count{
+  position: absolute;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  font-size:10px;
+  width:20px;
+  height:20px;
+  left:1155px;
+  top : 5px;
+  text-align: center;
+  line-height: 20px;
+}
+.cart-price{
+  position: absolute;
+  color: black;
+  font-size:15px;
+  font-weight: bold;
+  width:20px;
+  height:20px;
+  left:1145px;
+  top : 45px;
+  text-align: center;
+  line-height: 20px;
+}
+.cart-icon:hover{
+  color:#808080;
+  cursor: pointer;
+}
+.cart-icon:hover .cart-cont {
+  background-color: #808080;
+  color:white;
+}
